@@ -1,0 +1,19 @@
+Order Number: 0045
+Customer: w
+Email: w
+Phone Number: 0
+Location: Witbank
+
+You have ordered the following from Aesop's Pizza in Cape Town:
+
+3 × w (R23.0)
+
+Special Instructions: w
+
+Total: R69.0
+
+Eshan Gibson is closest to your location so he/she will be delivering your order to you at:
+
+w
+
+If you need to contact the restaurant, their number is 0.

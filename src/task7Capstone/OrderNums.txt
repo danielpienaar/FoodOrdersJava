@@ -1,0 +1,17 @@
+Alex, 0364
+Amy, 0324
+Bob, 0345
+Daniel, 0123
+DRet, 0045
+Fer, 0876
+Frank, 0657
+Fred, 0767
+Fred Fuchs, 0056
+g, 0005
+Joe, 0234
+Joe Mama, 1234
+Joey, 0876
+Stacy, 0401
+Varl, 4567
+w, 0045
+Zack, 0876

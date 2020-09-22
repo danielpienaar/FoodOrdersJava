@@ -1,0 +1,31 @@
+Cape Town
+-----
+Fred, Cape Town
+Zack, Cape Town
+
+Durban
+-----
+g, Durban
+Fer, Durban
+
+Johannesburg
+-----
+Varl, Johannesburg
+
+Potchefstroom
+-----
+
+Springbok
+-----
+DRet, Springbok
+Fred Fuchs, Springbok
+
+Bloemfontein
+-----
+
+Port Elizabeth
+-----
+
+Witbank
+-----
+w, Witbank
