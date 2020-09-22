@@ -134,7 +134,7 @@ public class Delivery {
 		ArrayList<Customer> c = new ArrayList<>();
 		try {
 			// Available Locations
-			File drivers = new File("src/task7Capstone/drivers.txt");
+			File drivers = new File("src/task7Capstone/driver-info.txt");
 			Scanner sc;
 			sc = new Scanner(drivers);
 			while (sc.hasNextLine()) {
@@ -196,7 +196,7 @@ public class Delivery {
 		int lineNo = 0;
 
 		try {
-			File drivers = new File("src/task7Capstone/drivers.txt");
+			File drivers = new File("src/task7Capstone/driver-info.txt");
 			Scanner sc = new Scanner(drivers);
 			while (sc.hasNextLine()) {
 				count++;
@@ -227,7 +227,7 @@ public class Delivery {
 			int fileLines = count;
 			count = 0;
 			try {
-				File drivers = new File("src/task7Capstone/drivers.txt");
+				File drivers = new File("src/task7Capstone/driver-info.txt");
 				Scanner sc = new Scanner(drivers);
 				while (sc.hasNextLine()) {
 					count++;
@@ -237,15 +237,11 @@ public class Delivery {
 						updated.append(scLine.next() + ", ");
 						if (count != fileLines) {
 							int num = scLine.nextInt();
-							System.out.println("Load before: " + num);
 							num++;
-							System.out.println("Load after: " + num);
 							updated.append(num + "\n");
 						} else {
 							int num = scLine.nextInt();
-							System.out.println("Load before (no line break): " + num);
 							num++;
-							System.out.println("Load after (no line break): " + num);
 							updated.append(num);
 						}
 					} else {
@@ -261,7 +257,7 @@ public class Delivery {
 				}
 				sc.close();
 				drivers.delete();
-				Formatter f = new Formatter("src/task7Capstone/drivers.txt");
+				Formatter f = new Formatter("src/task7Capstone/driver-info.txt");
 				f.format("%s", updated.toString());
 				f.close();
 			} catch (Exception e) {
