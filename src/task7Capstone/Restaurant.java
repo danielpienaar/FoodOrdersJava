@@ -39,7 +39,7 @@ public class Restaurant {
 			price = price * 100;
 			price = Math.round(price);
 			price = price / 100;
-			output += orderNumberArr.get(i) + " × " + orderNameArr.get(i) + " (R" + price + ")\n";
+			output += orderNumberArr.get(i) + " x " + orderNameArr.get(i) + " (R" + price + ")\n";
 		}
 		return output;
 	}
